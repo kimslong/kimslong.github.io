@@ -8,19 +8,46 @@ redirect_from:
 ---
 
 <section class="sj-hero">
-  <div class="sj-hero__eyebrow">AI Ph.D. Candidate · 3D Generation · Video Understanding</div>
-  <h1>Hi, I am Shilong Jin.</h1>
-  <p class="sj-hero__lead">
-    I am a first-year Ph.D. Candidate in Artificial Intelligence at
-    <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>, a member of
-    <a href="http://nuaamvp.cn/">MVP Lab</a>, supervised by Prof.
-    <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a>. I work closely with
-    <a href="https://haoranduan.com/">Haoran Duan</a> at Tsinghua University.
-  </p>
-  <div class="sj-actions">
-    <a class="sj-button sj-button--primary" href="mailto:shilong.jin@nuist.edu.cn">Email</a>
-    <a class="sj-button" href="mailto:shilonnng@gmail.com">Gmail</a>
-    <a class="sj-button" href="https://github.com/kimslong">GitHub</a>
+  <div class="sj-hero__content">
+    <div class="sj-hero__eyebrow">AI Ph.D. Candidate · 3D Generation · Video Understanding</div>
+    <div class="sj-hero__stamp">Dragon Ball inspired research interface</div>
+    <h1>Hi, I am Shilong Jin.</h1>
+    <p class="sj-hero__lead">
+      I am a first-year Ph.D. Candidate in Artificial Intelligence at
+      <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>, a member of
+      <a href="http://nuaamvp.cn/">MVP Lab</a>, supervised by Prof.
+      <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a>. I work closely with
+      <a href="https://haoranduan.com/">Haoran Duan</a> at Tsinghua University.
+    </p>
+    <div class="sj-actions">
+      <a class="sj-button sj-button--primary" href="mailto:shilong.jin@nuist.edu.cn">Email</a>
+      <a class="sj-button" href="mailto:shilonnng@gmail.com">Gmail</a>
+      <a class="sj-button" href="https://github.com/kimslong">GitHub</a>
+    </div>
+    <div class="sj-hero__stats">
+      <div><span>Focus</span><strong>3D Generation</strong></div>
+      <div><span>Lab</span><strong>MVP Lab</strong></div>
+      <div><span>Current Arc</span><strong>Ph.D. at NUAA</strong></div>
+    </div>
+  </div>
+  <div class="sj-hero__panel">
+    <div class="sj-scouter">
+      <span>Research Scouter</span>
+      <strong>Power Level 9000+</strong>
+      <small>3D generation, embodied perception, hand pose, and video reasoning</small>
+    </div>
+    <div class="sj-hero__portrait">
+      <img src="{{ '/images/shilonnng.png' | relative_url }}" alt="Portrait of Shilong Jin">
+    </div>
+    <div class="sj-dragonballs" aria-hidden="true">
+      <span class="sj-dragonball" data-stars="1"></span>
+      <span class="sj-dragonball" data-stars="2"></span>
+      <span class="sj-dragonball" data-stars="3"></span>
+      <span class="sj-dragonball" data-stars="4"></span>
+      <span class="sj-dragonball" data-stars="5"></span>
+      <span class="sj-dragonball" data-stars="6"></span>
+      <span class="sj-dragonball" data-stars="7"></span>
+    </div>
   </div>
 </section>
 

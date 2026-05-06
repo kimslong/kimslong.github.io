@@ -23,7 +23,7 @@ repository               : "kimslong/kimslong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "shilong-avatar.svg"
+  avatar           : "shilonnng.png"
   name             : "Shilong Jin"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate in AI at NUAA. Researching 3D generation, hand pose, embodied intelligence, and video understanding."
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
 
 
