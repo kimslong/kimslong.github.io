@@ -33,6 +33,7 @@ a:hover {
   color: var(--sj-clay);
 }
 
+<<<<<<< HEAD
 .masthead,
 .masthead__inner-wrap {
   background: transparent !important;
@@ -43,6 +44,12 @@ a:hover {
 
 .page__footer {
   display: none !important;
+=======
+.masthead {
+  background: rgba(255, 253, 245, 0.78);
+  border-bottom: 1px solid var(--sj-line);
+  backdrop-filter: blur(18px);
+>>>>>>> parent of 538462b (haha)
 }
 
 .site-title,
@@ -72,9 +79,12 @@ a:hover {
 }
 
 .author__avatar img {
+<<<<<<< HEAD
   aspect-ratio: 1;
   object-fit: cover;
   object-position: center 14%;
+=======
+>>>>>>> parent of 538462b (haha)
   border: 3px solid rgba(255, 253, 245, 0.92);
   box-shadow: 0 18px 44px rgba(15, 63, 58, 0.20);
 }
