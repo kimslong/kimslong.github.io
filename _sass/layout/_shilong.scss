@@ -41,6 +41,15 @@ a:hover {
   backdrop-filter: none !important;
 }
 
+.masthead::after,
+.greedy-nav,
+.greedy-nav button,
+.masthead__menu-item,
+.greedy-nav .visible-links {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
 .page__footer {
   display: none !important;
 }
