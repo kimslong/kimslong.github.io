@@ -32,9 +32,7 @@ redirect_from:
 
 <section class="sj-section" id="news">
   <div class="sj-section__heading">
-
-
-    <h2>News</h2>
+    <h2>🔥 News</h2>
   </div>
   <ul class="sj-news-list">
     <li>
@@ -90,8 +88,6 @@ redirect_from:
 
 <section class="sj-section" id="selected-publications">
   <div class="sj-section__heading">
-
-
     <h2>📝 Publications</h2>
   </div>
 
@@ -223,8 +219,6 @@ redirect_from:
 
 <section class="sj-section" id="research">
   <div class="sj-section__heading">
-
-
     <h2>🔬 Research Interests</h2>
   </div>
   <div class="sj-interest-grid">
@@ -237,7 +231,6 @@ redirect_from:
 
 <section class="sj-section" id="experience">
   <div class="sj-section__heading">
-
     <h2>💼 Internships</h2>
   </div>
   <table class="sj-paper-table sj-paper-table--experience">
@@ -257,7 +250,6 @@ redirect_from:
 
 <section class="sj-section" id="circle">
   <div class="sj-section__heading">
-    <span>People</span>
     <h2>👥 My Circle</h2>
   </div>
   <div class="sj-people-grid">
