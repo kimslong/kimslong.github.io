@@ -9,7 +9,7 @@ redirect_from:
 
 <section class="sj-hero">
 
-  <h1>Hi, I'm Shilong Jin 👋</h1>
+  <h1> 👋 I'm Shilong Jin</h1>
   <p class="sj-hero__lead">
     I am a first-year Ph.D. Candidate in Artificial Intelligence at
     <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>, a member of
