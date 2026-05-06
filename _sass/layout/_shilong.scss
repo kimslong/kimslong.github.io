@@ -33,21 +33,36 @@ a:hover {
   color: var(--sj-clay);
 }
 
-.masthead,
-.masthead__inner-wrap {
-  background: transparent !important;
-  border-bottom: 0 !important;
+.masthead {
+  background: var(--global-bg-color) !important;
   box-shadow: none !important;
   backdrop-filter: none !important;
 }
 
-.masthead::after,
+.masthead::after {
+  background: var(--global-border-color) !important;
+}
+
+.masthead__inner-wrap,
 .greedy-nav,
 .greedy-nav button,
 .masthead__menu-item,
 .greedy-nav .visible-links {
   background: transparent !important;
   box-shadow: none !important;
+}
+
+.masthead__menu-item.selected a {
+  color: var(--global-masthead-link-color) !important;
+  font-weight: inherit !important;
+  border-bottom: 0 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+}
+
+.masthead__menu-item.selected a:hover {
+  color: var(--global-masthead-link-color-hover) !important;
+  border-bottom: 0 !important;
 }
 
 .page__footer {
