@@ -109,10 +109,19 @@ a:hover {
   justify-items: stretch;
 }
 
+.sidebar .author-profile-card {
+  width: 100%;
+}
+
 .author__avatar {
   display: block;
   width: 100%;
   text-align: center;
+}
+
+.sidebar .author-profile-card .author__avatar {
+  display: flex;
+  justify-content: center;
 }
 
 .author__avatar img {
@@ -138,6 +147,12 @@ a:hover {
   text-align: left;
 }
 
+.sidebar .author-profile-card .author__content,
+.sidebar .author-profile-card .author__urls-wrapper,
+.sidebar .author-profile-card .author__lab-card {
+  text-align: left;
+}
+
 .author__content p {
   margin-left: 0;
   margin-right: 0;
@@ -156,10 +171,16 @@ a:hover {
   width: 100%;
   height: auto;
   object-fit: contain;
+  background: transparent !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+.sidebar .author-profile-card .author__lab-card {
   background: transparent;
   padding: 0;
-  box-sizing: border-box;
-  border-radius: 12px;
+  border: 0;
 }
 
 .author__name {
@@ -169,6 +190,10 @@ a:hover {
 
 .author__urls-wrapper {
   cursor: pointer;
+}
+
+.sidebar .author-profile-card .author__urls-wrapper button {
+  margin-left: 0;
 }
 
 .author__urls li,
@@ -695,12 +720,11 @@ a:hover {
 .sj-hobby-grid__image img {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 100%;
+  height: auto;
   border-radius: 18px;
   border: 1px solid #eaeaea;
-  background: #fff;
-  object-fit: cover;
+  background: transparent;
+  object-fit: contain;
 }
 
 .sj-hobby-block {
