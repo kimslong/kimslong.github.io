@@ -249,6 +249,7 @@ redirect_from:
 </section>
 
 <section class="sj-section" id="circle">
+  <div class="sj-section__heading">
     <h2>👥 My Circle</h2>
   </div>
   <div class="sj-people-grid">
