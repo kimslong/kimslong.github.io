@@ -104,11 +104,26 @@ a:hover {
 }
 
 .author__content,
-.author__urls-wrapper {
+.author__urls-wrapper,
+.author__lab-card {
   background: rgba(255, 253, 245, 0.56);
   border: 1px solid var(--sj-line);
   border-radius: 18px;
   padding: 0.8rem;
+}
+
+.author__lab-card {
+  margin-top: 0.85rem;
+}
+
+.author__lab-card a,
+.author__lab-card img {
+  display: block;
+  width: 100%;
+}
+
+.author__lab-card img {
+  border-radius: 12px;
 }
 
 .author__name {
@@ -189,16 +204,50 @@ a:hover {
   font-size: clamp(1rem, 2vw, 1.2rem) !important;
 }
 
-.sj-actions,
-.sj-links {
+.sj-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
   margin-top: 1.1rem;
 }
 
-.sj-actions .sj-button,
-.page__content .sj-links a {
+.sj-shield-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.sj-shield-row--hero {
+  margin-top: 1.25rem;
+}
+
+.sj-shield-row--center {
+  justify-content: center;
+}
+
+.sj-shield-row a,
+.sj-shield-row a:hover,
+.sj-shield-row a:focus-visible {
+  text-decoration: none !important;
+}
+
+.sj-shield-row img {
+  display: inline-block;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.sj-inline-logo {
+  display: inline-block;
+  height: 1.15em;
+  margin-left: 0.3rem;
+  vertical-align: -0.18em;
+  border: 0;
+}
+
+.sj-actions .sj-button {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -227,10 +276,7 @@ a:hover {
     transform 0.18s ease;
 }
 
-.sj-actions .sj-button:first-child,
-.page__content .sj-links a:first-child,
-.sj-actions .sj-button:visited,
-.page__content .sj-links a:visited {
+.sj-actions .sj-button:visited {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(243, 249, 246, 0.96) 52%, rgba(225, 239, 234, 0.98) 100%);
   color: var(--sj-mint-deep);
@@ -245,9 +291,7 @@ a:hover {
 }
 
 .sj-actions .sj-button:hover,
-.sj-actions .sj-button:focus-visible,
-.page__content .sj-links a:hover,
-.page__content .sj-links a:focus-visible {
+.sj-actions .sj-button:focus-visible {
   background:
     linear-gradient(180deg, rgba(16, 96, 88, 0.98) 0%, rgba(11, 63, 58, 0.98) 100%);
   color: #fffdf5;
@@ -261,8 +305,7 @@ a:hover {
   transform: translateY(-2px);
 }
 
-.sj-actions .sj-button:active,
-.page__content .sj-links a:active {
+.sj-actions .sj-button:active {
   transform: translateY(1px);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.10),
@@ -288,6 +331,30 @@ a:hover {
   margin: 0;
   color: var(--sj-mint-deep);
   font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.sj-news-list {
+  display: grid;
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sj-news-list li {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 1rem;
+  align-items: start;
+  padding: 0.85rem;
+  border: 1px solid rgba(15, 118, 110, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.54);
+}
+
+.sj-news-list time {
+  color: var(--sj-clay);
+  font-weight: 900;
 }
 
 .sj-timeline {
@@ -427,6 +494,84 @@ a:hover {
   background: var(--sj-card);
 }
 
+.sj-paper-table {
+  width: 100%;
+  margin: 0 0 1.15rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.82), rgba(255, 248, 235, 0.68));
+  box-shadow: 0 14px 42px rgba(15, 63, 58, 0.08);
+  overflow: hidden;
+}
+
+.sj-paper-table td {
+  padding: 1rem;
+  vertical-align: middle;
+  background: transparent !important;
+}
+
+.sj-paper-table__media {
+  width: 30%;
+  min-width: 220px;
+}
+
+.sj-paper-table__media--wide {
+  width: 40%;
+}
+
+.sj-paper-table__media img {
+  display: block;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.sj-paper-table__content {
+  text-align: center;
+}
+
+.sj-paper-table__content--left {
+  text-align: left;
+}
+
+.sj-paper-table__content h3 {
+  margin: 0.8rem 0 0.5rem;
+  color: var(--sj-mint-deep);
+  font-size: clamp(1.08rem, 2vw, 1.45rem);
+  line-height: 1.25;
+}
+
+.sj-paper-table__content p {
+  margin: 0.4rem 0;
+}
+
+.sj-paper-table__subline {
+  color: var(--sj-muted);
+  font-size: 0.98rem;
+}
+
+.sj-paper-table__authors {
+  color: #31413d;
+}
+
+.sj-paper-table__venue-logo {
+  display: block;
+  height: 4rem;
+  margin: 0 auto 0.9rem;
+  border: 0;
+}
+
+.sj-paper-table__venue-logo--lg {
+  height: 6.8rem;
+}
+
+.sj-name-emph {
+  font-size: 1.08em;
+}
+
 .sj-experience-card,
 .sj-hobby-card {
   display: grid;
@@ -467,6 +612,46 @@ a:hover {
   padding-left: 1rem;
 }
 
+.sj-hobby-grid {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.1fr) 1fr 0.9fr;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.sj-hobby-grid__image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border-radius: 18px;
+  border: 1px solid #eaeaea;
+  background: #fff;
+  object-fit: cover;
+}
+
+.sj-hobby-block {
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.56);
+  padding: 1rem 1.05rem;
+}
+
+.sj-hobby-block h3 {
+  margin: 0 0 0.7rem;
+  color: var(--sj-mint-deep);
+}
+
+.sj-hobby-block ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.sj-hobby-block li {
+  margin: 0 0 0.45rem;
+  line-height: 1.55;
+}
+
 @keyframes sj-float {
   from { transform: translate3d(0, 0, 0) rotate(0deg); }
   to { transform: translate3d(-24px, 26px, 0) rotate(12deg); }
@@ -475,6 +660,7 @@ a:hover {
 @media (max-width: 760px) {
   .sj-section__heading,
   .sj-timeline li,
+  .sj-news-list li,
   .sj-paper,
   .sj-experience-card,
   .sj-hobby-card {
@@ -482,8 +668,34 @@ a:hover {
   }
 
   .sj-interest-grid,
-  .sj-people-grid {
+  .sj-people-grid,
+  .sj-hobby-grid {
     grid-template-columns: 1fr;
+  }
+
+  .sj-paper-table,
+  .sj-paper-table tbody,
+  .sj-paper-table tr,
+  .sj-paper-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .sj-paper-table__media,
+  .sj-paper-table__media--wide {
+    min-width: 0;
+  }
+
+  .sj-paper-table__content,
+  .sj-paper-table__content--left {
+    text-align: left;
+  }
+
+  .sj-paper-table__venue-logo,
+  .sj-paper-table__venue-logo--lg {
+    margin-left: 0;
+    margin-right: 0;
+    height: 4rem;
   }
 
   .sj-paper__image {
@@ -495,6 +707,11 @@ a:hover {
   }
 
   .sj-timeline time {
+    display: block;
+    margin-bottom: 0.35rem;
+  }
+
+  .sj-news-list time {
     display: block;
     margin-bottom: 0.35rem;
   }
