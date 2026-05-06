@@ -249,7 +249,6 @@ redirect_from:
 </section>
 
 <section class="sj-section" id="circle">
-  <div class="sj-section__heading">
     <h2>👥 My Circle</h2>
   </div>
   <div class="sj-people-grid">
@@ -262,8 +261,6 @@ redirect_from:
 
 <section class="sj-section" id="hobbies">
   <div class="sj-section__heading">
-
-
     <h2>🎮 Hobbies & Achievements</h2>
   </div>
   <div class="sj-hobby-grid">
