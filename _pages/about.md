@@ -8,8 +8,9 @@ redirect_from:
 ---
 
 <section class="sj-hero">
-  <div class="sj-hero__eyebrow">AI Ph.D. Candidate · 3D Generation · Video Understanding</div>
-  <h1>Hi, I'm Shilong Jin.</h1>
+
+[//]: # (  <div class="sj-hero__eyebrow">AI Ph.D. Candidate · Embodied Intelligence · 3D Generation & Editing</div>)
+  <h1>Hi, I'm Shilong Jin 👋</h1>
   <p class="sj-hero__lead">
     I am a first-year Ph.D. Candidate in Artificial Intelligence at
     <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>, a member of
@@ -32,7 +33,8 @@ redirect_from:
 
 <section class="sj-section" id="news">
   <div class="sj-section__heading">
-    <span>Recent Updates</span>
+
+[//]: # (    <span>Recent Updates</span>)
     <h2>News</h2>
   </div>
   <ul class="sj-news-list">
@@ -89,7 +91,8 @@ redirect_from:
 
 <section class="sj-section" id="selected-publications">
   <div class="sj-section__heading">
-    <span>Selected Work</span>
+
+[//]: # (    <span>Selected Work</span>)
     <h2>📝 Publications</h2>
   </div>
 
@@ -221,7 +224,8 @@ redirect_from:
 
 <section class="sj-section" id="research">
   <div class="sj-section__heading">
-    <span>Focus</span>
+
+[//]: # (    <span>Focus</span>)
     <h2>🔬 Research Interests</h2>
   </div>
   <div class="sj-interest-grid">
@@ -234,7 +238,8 @@ redirect_from:
 
 <section class="sj-section" id="experience">
   <div class="sj-section__heading">
-    <span>Industry</span>
+
+[//]: # (    <span>Industry</span>)
     <h2>💼 Internships</h2>
   </div>
   <table class="sj-paper-table sj-paper-table--experience">
@@ -267,7 +272,8 @@ redirect_from:
 
 <section class="sj-section" id="hobbies">
   <div class="sj-section__heading">
-    <span>Beyond Research</span>
+
+[//]: # (    <span>Beyond Research</span>)
     <h2>🎮 Hobbies & Achievements</h2>
   </div>
   <div class="sj-hobby-grid">
