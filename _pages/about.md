@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Shilong Jin"
+title: ""
 author_profile: true
 redirect_from:
   - /about/
