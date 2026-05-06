@@ -221,6 +221,7 @@ a:hover {
 
 .sj-shield-row--hero {
   margin-top: 1.25rem;
+  justify-content: center;
 }
 
 .sj-shield-row--center {
@@ -355,6 +356,12 @@ a:hover {
 .sj-news-list time {
   color: var(--sj-clay);
   font-weight: 900;
+}
+
+.sj-news-list .sj-shield-row {
+  display: inline-flex;
+  margin: 0 0 0 0.45rem;
+  vertical-align: middle;
 }
 
 .sj-timeline {
@@ -530,7 +537,7 @@ a:hover {
 }
 
 .sj-paper-table__content {
-  text-align: center;
+  text-align: left;
 }
 
 .sj-paper-table__content--left {
@@ -560,12 +567,16 @@ a:hover {
 .sj-paper-table__venue-logo {
   display: block;
   height: 4rem;
-  margin: 0 auto 0.9rem;
+  margin: 0 0 0.9rem;
   border: 0;
 }
 
 .sj-paper-table__venue-logo--lg {
   height: 6.8rem;
+}
+
+.sj-paper-table__content .sj-shield-row {
+  justify-content: flex-start;
 }
 
 .sj-name-emph {

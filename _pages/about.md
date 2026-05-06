@@ -85,23 +85,12 @@ redirect_from:
   </ul>
 </section>
 
-<section class="sj-section" id="research">
-  <div class="sj-section__heading">
-    <span>Focus</span>
-    <h2>Research Interests</h2>
-  </div>
-  <div class="sj-interest-grid">
-    <div><strong>3D Generation & Editing</strong><span>multi-view consistency, text-to-3D, Gaussian splatting</span></div>
-    <div><strong>Hand Reconstruction & Pose Estimation</strong><span>hand-eye intent, interaction understanding</span></div>
-    <div><strong>Embodied Intelligence & World Model</strong><span>agent perception, scene reasoning, structured priors</span></div>
-    <div><strong>Video Understanding</strong><span>causal search, information bottleneck, temporal reasoning</span></div>
-  </div>
-</section>
+
 
 <section class="sj-section" id="selected-publications">
   <div class="sj-section__heading">
     <span>Selected Work</span>
-    <h2>Publications & Patent</h2>
+    <h2>📝 Publications</h2>
   </div>
 
   <table class="sj-paper-table">
@@ -230,10 +219,23 @@ redirect_from:
   </table>
 </section>
 
+<section class="sj-section" id="research">
+  <div class="sj-section__heading">
+    <span>Focus</span>
+    <h2>🔬 Research Interests</h2>
+  </div>
+  <div class="sj-interest-grid">
+    <div><strong>🐿 3D Generation & Editing</strong><span>multi-view consistency, text-to-3D, Gaussian splatting</span></div>
+    <div><strong>✋ Hand Reconstruction & Pose Estimation</strong><span>hand-eye intent, interaction understanding</span></div>
+    <div><strong>🤖 Embodied Intelligence & World Model</strong><span>agent perception, scene reasoning, structured priors</span></div>
+    <div><strong>🎬 Video Understanding</strong><span>causal search, information bottleneck, temporal reasoning</span></div>
+  </div>
+</section>
+
 <section class="sj-section" id="experience">
   <div class="sj-section__heading">
     <span>Industry</span>
-    <h2>Internship</h2>
+    <h2>💼 Internships</h2>
   </div>
   <table class="sj-paper-table sj-paper-table--experience">
     <tr>
@@ -253,7 +255,7 @@ redirect_from:
 <section class="sj-section" id="circle">
   <div class="sj-section__heading">
     <span>People</span>
-    <h2>My Circle</h2>
+    <h2>👥 My Circle</h2>
   </div>
   <div class="sj-people-grid">
     <div><span>Ph.D. Advisor</span><a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a><small>NUAA</small></div>
@@ -266,7 +268,7 @@ redirect_from:
 <section class="sj-section" id="hobbies">
   <div class="sj-section__heading">
     <span>Beyond Research</span>
-    <h2>游戏与爱好</h2>
+    <h2>🎮 Hobbies & Achievements</h2>
   </div>
   <div class="sj-hobby-grid">
     <div class="sj-hobby-grid__image">
@@ -275,12 +277,12 @@ redirect_from:
     <div class="sj-hobby-block">
       <h3>和平精英</h3>
       <ul>
-        <li>无敌战神 ×3 [SS4, SS8, SS38]</li>
+        <li>无敌战神 ×4 [SS4, SS8, SS38, SS39]</li>
         <li>巅峰宗师 ×2 [SS10, SS18]</li>
         <li>高校榜榜一 [SS38]</li>
         <li>巅峰赛北京市级百强 [SS26]</li>
         <li>晋级赛绝世王牌 ×4</li>
-        <li>城市赛冠军 · 月赛冠军 · 40 王牌印记</li>
+        <li>城市赛冠军 · 月赛冠军 · 42 王牌印记</li>
       </ul>
     </div>
     <div class="sj-hobby-block">
