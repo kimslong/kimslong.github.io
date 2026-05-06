@@ -105,8 +105,8 @@ a:hover {
 
 .author-profile-card {
   display: grid;
-  justify-items: center;
   row-gap: 1rem;
+  justify-items: stretch;
 }
 
 .author__avatar {
@@ -129,17 +129,18 @@ a:hover {
 .author__content,
 .author__urls-wrapper,
 .author__lab-card {
+  display: block;
   background: rgba(255, 253, 245, 0.56);
   border: 1px solid var(--sj-line);
   border-radius: 18px;
   padding: 0.8rem;
   width: 100%;
-  text-align: center;
+  text-align: left;
 }
 
 .author__content p {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .author__lab-card a,
@@ -155,8 +156,8 @@ a:hover {
   width: 100%;
   height: auto;
   object-fit: contain;
-  background: #fff;
-  padding: 0.4rem;
+  background: transparent;
+  padding: 0;
   box-sizing: border-box;
   border-radius: 12px;
 }
@@ -167,25 +168,21 @@ a:hover {
 }
 
 .author__urls-wrapper {
-  cursor: default;
-}
-
-.author__urls-wrapper button {
-  margin-left: auto;
-  margin-right: auto;
+  cursor: pointer;
 }
 
 .author__urls li,
 .author__urls a {
-  text-align: center;
+  text-align: left;
 }
 
-.author__urls a,
 .author__urls .author__desktop {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+  width: auto;
+}
+
+.author__urls a {
+  display: block;
+  width: auto;
 }
 
 .sj-hero,
@@ -503,6 +500,10 @@ a:hover {
   display: inline;
 }
 
+.sj-people-grid__labmates p {
+  white-space: nowrap;
+}
+
 .sj-paper {
   display: grid;
   grid-template-columns: minmax(160px, 240px) 1fr;
@@ -768,6 +769,10 @@ a:hover {
     margin-left: 0;
     margin-right: 0;
     height: 4rem;
+  }
+
+  .sj-people-grid__labmates p {
+    white-space: normal;
   }
 
   .sj-paper__image {
