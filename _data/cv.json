@@ -1,152 +1,112 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Shilong Jin",
+    "email": "shilong.jin@nuist.edu.cn",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://kimslong.github.io",
+    "summary": "Ph.D. Candidate in Artificial Intelligence at NUAA, MVP Lab. Research interests include 3D generation, hand reconstruction, embodied intelligence, and video understanding.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Nanjing",
+      "countryCode": "CN",
+      "region": "Jiangsu"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "kimslong",
+        "url": "https://github.com/kimslong"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Lenovo Research",
+      "position": "Algorithm Intern",
+      "url": "",
+      "startDate": "2025-09-01",
+      "endDate": "2026-01-31",
+      "summary": "CTOO Human-centered Innovation Intelligence and Insights, Beijing HQ.",
+      "highlights": [
+        "Hand-eye intent interaction understanding",
+        "Pose estimation algorithms"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Nanjing University of Aeronautics and Astronautics",
+      "area": "Artificial Intelligence",
+      "studyType": "Ph.D. Candidate",
+      "startDate": "2026-01-01",
+      "endDate": "",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research",
+      "keywords": [
+        "3D Generation",
+        "Hand Reconstruction",
+        "Embodied Intelligence",
+        "Video Understanding"
+      ]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Research",
+      "keywords": [
+        "3D Generation & Editing",
+        "Hand Reconstruction & Pose Estimation",
+        "Embodied Intelligence & World Model",
+        "Video Understanding"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "ConsDreamer: Advancing Multi-View Consistency for Zero-Shot Text-to-3D Generation",
+      "publisher": "IEEE TIP",
+      "releaseDate": "2026-04-01",
+      "website": "https://arxiv.org/abs/2504.02316",
+      "summary": "IEEE TIP 2026; SCI Q1 Top; CCF-A; IF 13.7."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Debiasing Diffusion Priors via 3D Attention for Consistent Gaussian Splatting",
+      "publisher": "AAAI",
+      "releaseDate": "2025-11-01",
+      "website": "https://arxiv.org/pdf/2512.07345",
+      "summary": "AAAI 2026; CCF-A."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "ReaSon: Reinforced Causal Search with Information Bottleneck for Video Understanding",
+      "publisher": "AAAI",
+      "releaseDate": "2025-11-02",
+      "website": "https://arxiv.org/abs/2511.12530",
+      "summary": "AAAI 2026; CCF-A."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "ZeroDINO: Entropy-Driven Granularity-Aware Semantic Fusion for Zero-Shot Learning",
+      "publisher": "MMM",
+      "releaseDate": "2025-10-01",
+      "website": "https://link.springer.com/chapter/10.1007/978-981-95-6960-1_43",
+      "summary": "MMM 2026; CCF-C."
+    },
+    {
+      "name": "Dual Semantic-Controlled Conversion of Virtual to Real Images for Maritime Unmanned Boats",
+      "publisher": "Control Engineering",
+      "releaseDate": "2026-01-01",
+      "website": "https://github.com/GAInuist/CVR",
+      "summary": "Control Engineering 2026."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }

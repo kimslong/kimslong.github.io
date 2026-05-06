@@ -11,54 +11,35 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* 2026.01 - Present: Ph.D. Candidate in Artificial Intelligence, Nanjing University of Aeronautics and Astronautics (NUAA), MVP Lab. Advisor: Prof. Jie Qin.
+* Master's research: Nanjing University of Information Science and Technology (NUIST). Advisor: Prof. Yuan Zhou.
 
-Work experience
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 3D Generation & Editing
+* Hand Reconstruction & Pose Estimation
+* Embodied Intelligence & World Model
+* Video Understanding
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Industry Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Sep. 2025 - Jan. 2026: Algorithm Intern, Lenovo Research, Beijing HQ.
+  * CTOO Human-centered Innovation Intelligence and Insights.
+  * Worked on hand-eye intent interaction understanding and pose estimation algorithms.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
+Patent
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* 2025.05.27: 一种增强视角一致性的零样本3D生成方法. Chinese Invention Patent. Inventors: Yuan Zhou, Shilong Jin.
+
+Collaborators and Advisors
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Ph.D. Advisor: Jie Qin, NUAA.
+* Master's Advisor: Yuan Zhou, NUIST.
+* Close collaborator: Haoran Duan, Tsinghua University.
+* Labmates: Litao Hua, Wentao Huang, Zhixuan Deng, Lei Xiang, Yifan Zhu.

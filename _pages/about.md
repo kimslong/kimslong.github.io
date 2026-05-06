@@ -1,56 +1,167 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Shilong Jin"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<section class="sj-hero">
+  <div class="sj-hero__eyebrow">AI Ph.D. Candidate · 3D Generation · Video Understanding</div>
+  <h1>Hi, I am Shilong Jin.</h1>
+  <p class="sj-hero__lead">
+    I am a first-year Ph.D. Candidate in Artificial Intelligence at
+    <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>, a member of
+    <a href="http://nuaamvp.cn/">MVP Lab</a>, supervised by Prof.
+    <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a>. I work closely with
+    <a href="https://haoranduan.com/">Haoran Duan</a> at Tsinghua University.
+  </p>
+  <div class="sj-actions">
+    <a class="sj-button sj-button--primary" href="mailto:shilong.jin@nuist.edu.cn">Email</a>
+    <a class="sj-button" href="mailto:shilonnng@gmail.com">Gmail</a>
+    <a class="sj-button" href="https://github.com/kimslong">GitHub</a>
+  </div>
+</section>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<section class="sj-section" id="news">
+  <div class="sj-section__heading">
+    <span>Recent Updates</span>
+    <h2>News</h2>
+  </div>
+  <ol class="sj-timeline">
+    <li><time>2026.04</time><div><a href="https://github.com/GAInuist/ConsDreamer"><strong>ConsDreamer</strong></a> accepted to <strong>IEEE TIP 2026</strong>. <span class="sj-badge">SCI Q1 Top</span> <span class="sj-badge">CCF-A</span> <span class="sj-badge">IF 13.7</span></div></li>
+    <li><time>2026.01</time><div>Started Ph.D. study in Artificial Intelligence at <strong>NUAA</strong>.</div></li>
+    <li><time>2025.11</time><div><a href="https://github.com/kimslong/AAAI26-TDAttn"><strong>TD-Attn</strong></a> accepted to <strong>AAAI 2026</strong>. <span class="sj-badge">CCF-A</span></div></li>
+    <li><time>2025.11</time><div><a href="https://github.com/robin-hlt/AAAI26-ReaSon"><strong>ReaSon</strong></a> accepted to <strong>AAAI 2026</strong>. <span class="sj-badge">CCF-A</span></div></li>
+    <li><time>2025.10</time><div><a href="https://github.com/GAInuist/ZeroDINO"><strong>ZeroDINO</strong></a> accepted to <strong>MMM 2026</strong>. <span class="sj-badge sj-badge--amber">CCF-C</span></div></li>
+    <li><time>2025.09</time><div>Algorithm Intern at <strong>Lenovo Research</strong>, Beijing HQ.</div></li>
+  </ol>
+</section>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<section class="sj-section" id="research">
+  <div class="sj-section__heading">
+    <span>Focus</span>
+    <h2>Research Interests</h2>
+  </div>
+  <div class="sj-interest-grid">
+    <div><strong>3D Generation & Editing</strong><span>multi-view consistency, text-to-3D, Gaussian splatting</span></div>
+    <div><strong>Hand Reconstruction & Pose Estimation</strong><span>hand-eye intent, interaction understanding</span></div>
+    <div><strong>Embodied Intelligence & World Model</strong><span>agent perception, scene reasoning, structured priors</span></div>
+    <div><strong>Video Understanding</strong><span>causal search, information bottleneck, temporal reasoning</span></div>
+  </div>
+</section>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<section class="sj-section" id="selected-publications">
+  <div class="sj-section__heading">
+    <span>Selected Work</span>
+    <h2>Publications & Patent</h2>
+  </div>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+  <article class="sj-paper sj-paper--feature">
+    <a class="sj-paper__image" href="https://github.com/GAInuist/ConsDreamer"><img src="{{ '/images/consdreamer_poster.png' | relative_url }}" alt="ConsDreamer poster"></a>
+    <div class="sj-paper__body">
+      <div class="sj-venue">IEEE TIP 2026 · SCI Q1 Top · CCF-A · IF 13.7</div>
+      <h3>ConsDreamer: Advancing Multi-View Consistency for Zero-Shot Text-to-3D Generation</h3>
+      <p>Yuan Zhou, <strong>Shilong Jin</strong>, Litao Hua, Wanjun Lv, Haoran Duan, Jungong Han</p>
+      <div class="sj-links"><a href="https://arxiv.org/abs/2504.02316">arXiv</a><a href="https://ieeexplore.ieee.org/document/11505712">IEEE Xplore</a><a href="https://github.com/GAInuist/ConsDreamer">Code</a></div>
+    </div>
+  </article>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+  <article class="sj-paper">
+    <a class="sj-paper__image" href="https://github.com/kimslong/AAAI26-TDAttn"><img src="{{ '/images/poster_1.png' | relative_url }}" alt="TD-Attn poster"></a>
+    <div class="sj-paper__body">
+      <div class="sj-venue">AAAI 2026 · CCF-A</div>
+      <h3>Debiasing Diffusion Priors via 3D Attention for Consistent Gaussian Splatting</h3>
+      <p><strong>Shilong Jin</strong>, Haoran Duan, Litao Hua, Wentao Huang, Yuan Zhou</p>
+      <div class="sj-links"><a href="https://arxiv.org/pdf/2512.07345">arXiv</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/37470">AAAI</a><a href="https://github.com/kimslong/AAAI26-TDAttn">Code</a><a href="https://underline.io/lecture/140473-debiasing-diffusion-priors-via-3d-attention-for-consistent-gaussian-splatting">Poster</a></div>
+    </div>
+  </article>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+  <article class="sj-paper">
+    <a class="sj-paper__image" href="https://github.com/robin-hlt/AAAI26-ReaSon"><img src="{{ '/images/reason_poster.png' | relative_url }}" alt="ReaSon poster"></a>
+    <div class="sj-paper__body">
+      <div class="sj-venue">AAAI 2026 · CCF-A</div>
+      <h3>ReaSon: Reinforced Causal Search with Information Bottleneck for Video Understanding</h3>
+      <p>Yuan Zhou, Litao Hua, <strong>Shilong Jin</strong>, Wentao Huang, Haoran Duan</p>
+      <div class="sj-links"><a href="https://arxiv.org/abs/2511.12530">arXiv</a><a href="https://ojs.aaai.org/index.php/AAAI/article/view/38387">AAAI</a><a href="https://github.com/robin-hlt/AAAI26-ReaSon">Code</a><a href="https://underline.io/lecture/140468-reason-reinforced-causal-search-with-information-bottleneck-for-video-understanding">Poster</a></div>
+    </div>
+  </article>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+  <article class="sj-paper">
+    <a class="sj-paper__image" href="https://github.com/GAInuist/ZeroDINO"><img src="{{ '/images/mmm_poster.png' | relative_url }}" alt="ZeroDINO poster"></a>
+    <div class="sj-paper__body">
+      <div class="sj-venue">MMM 2026 · CCF-C</div>
+      <h3>ZeroDINO: Entropy-Driven Granularity-Aware Semantic Fusion for Zero-Shot Learning</h3>
+      <p>Zhixuan Deng, Yifan Zhu, Lei Xiang, <strong>Shilong Jin</strong>, Haoran Duan, Yang Long, Yuan Zhou</p>
+      <div class="sj-links"><a href="https://link.springer.com/chapter/10.1007/978-981-95-6960-1_43">Springer</a><a href="https://github.com/GAInuist/ZeroDINO">Code</a></div>
+    </div>
+  </article>
 
-**Markdown generator**
+  <article class="sj-paper">
+    <a class="sj-paper__image" href="https://github.com/GAInuist/CVR"><img src="{{ '/images/VTR.png' | relative_url }}" alt="Virtual-to-real maritime image conversion"></a>
+    <div class="sj-paper__body">
+      <div class="sj-venue">Control Engineering 2026</div>
+      <h3>Dual Semantic-Controlled Conversion of Virtual to Real Images for Maritime Unmanned Boats</h3>
+      <p>Fan Liu, Qihiang Wang, Yifan Zhu, Lei Xiang, <strong>Shilong Jin</strong>, Yuan Zhou</p>
+      <div class="sj-links"><a href="https://github.com/GAInuist/CVR">Code</a></div>
+    </div>
+  </article>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+  <article class="sj-paper sj-paper--patent">
+    <div class="sj-paper__image"><img src="{{ '/images/fmzl.jpg' | relative_url }}" alt="Chinese invention patent certificate"></div>
+    <div class="sj-paper__body">
+      <div class="sj-venue">Chinese Invention Patent · Authorized 2025.05.27</div>
+      <h3>一种增强视角一致性的零样本3D生成方法</h3>
+      <p>Inventors: Yuan Zhou, <strong>Shilong Jin</strong></p>
+    </div>
+  </article>
+</section>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<section class="sj-section" id="experience">
+  <div class="sj-section__heading">
+    <span>Industry</span>
+    <h2>Internship</h2>
+  </div>
+  <div class="sj-experience-card">
+    <img src="{{ '/images/Lenovo-China-logo-02.png' | relative_url }}" alt="Lenovo Research logo">
+    <div>
+      <h3>Lenovo Research (Beijing HQ)</h3>
+      <p><strong>Algorithm Intern</strong> · CTOO Human-centered Innovation Intelligence and Insights · Sep. 2025 - Jan. 2026</p>
+      <p>Hand-eye intent interaction understanding and pose estimation algorithms.</p>
+    </div>
+  </div>
+</section>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<section class="sj-section" id="circle">
+  <div class="sj-section__heading">
+    <span>People</span>
+    <h2>My Circle</h2>
+  </div>
+  <div class="sj-people-grid">
+    <div><span>Ph.D. Advisor</span><a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a><small>NUAA</small></div>
+    <div><span>Master's Advisor</span><a href="https://faculty.nuist.edu.cn/YuanZHOU/en/index.htm">Yuan Zhou</a><small>NUIST</small></div>
+    <div><span>Close Collaborator</span><a href="https://haoranduan.com/">Haoran Duan</a><small>Tsinghua University</small></div>
+    <div><span>Labmates</span><p><a href="https://robin-hlt.github.io/">Litao Hua</a>, <a href="https://github.com/huangHH73">Wentao Huang</a>, Zhixuan Deng, Lei Xiang, Yifan Zhu</p></div>
+  </div>
+</section>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<section class="sj-section" id="hobbies">
+  <div class="sj-section__heading">
+    <span>Beyond Research</span>
+    <h2>Gaming Achievements</h2>
+  </div>
+  <div class="sj-hobby-card">
+    <img src="{{ '/images/game.jpg' | relative_url }}" alt="Gaming achievements banner">
+    <div class="sj-hobby-stats">
+      <div>
+        <h3>Game for Peace</h3>
+        <p>Conqueror x3 [SS4, SS8, SS38] · Peak Grandmaster x2 [SS10, SS18] · University ranking No. 1 [SS38] · Beijing Top 100 Peak Tournament [SS26] · 40 Ace Marks</p>
+      </div>
+      <div>
+        <h3>PUBG Mobile</h3>
+        <p>C1S1 Conqueror · China No. 9 · Asia No. 14</p>
+      </div>
+    </div>
+  </div>
+</section>

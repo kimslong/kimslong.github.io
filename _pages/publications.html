@@ -5,32 +5,40 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="sj-publications-intro">
+  <p>My work focuses on 3D generation, multimodal perception, zero-shot learning, and video understanding.</p>
+</div>
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="sj-pub-list">
+{% for post in site.publications reversed %}
+  <article class="sj-paper">
+    {% if post.header.teaser %}
+      <a class="sj-paper__image" href="{{ post.paperurl | default: post.codeurl | default: post.url }}"><img src="{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="{{ post.title }} teaser"></a>
+    {% endif %}
+    <div class="sj-paper__body">
+      <div class="sj-venue">{{ post.venue }}{% if post.badges %} · {{ post.badges }}{% endif %}</div>
+      <h3><a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a></h3>
+      <p>{{ post.authors }}</p>
+      <p>{{ post.excerpt | markdownify | strip_html }}</p>
+      <div class="sj-links">
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.officialurl %}<a href="{{ post.officialurl }}">Official</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.posterurl %}<a href="{{ post.posterurl }}">Poster</a>{% endif %}
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</div>
 
-
-
+<h2>Patent</h2>
+<article class="sj-paper sj-paper--patent">
+  <div class="sj-paper__image"><img src="{{ base_path }}/images/fmzl.jpg" alt="Chinese invention patent certificate"></div>
+  <div class="sj-paper__body">
+    <div class="sj-venue">Chinese Invention Patent · Authorized 2025.05.27</div>
+    <h3>一种增强视角一致性的零样本3D生成方法</h3>
+    <p>Inventors: Yuan Zhou, <strong>Shilong Jin</strong></p>
+  </div>
+</article>
