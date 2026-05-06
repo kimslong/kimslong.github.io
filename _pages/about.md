@@ -18,7 +18,7 @@ redirect_from:
     <a href="https://haoranduan.com/">Haoran Duan</a> at Tsinghua University.
   </p>
   <div class="sj-actions">
-    <a class="sj-button sj-button--primary" href="mailto:shilong.jin@nuist.edu.cn">Email</a>
+    <a class="sj-button" href="mailto:shilong.jin@nuist.edu.cn">Email</a>
     <a class="sj-button" href="mailto:shilonnng@gmail.com">Gmail</a>
     <a class="sj-button" href="https://github.com/kimslong">GitHub</a>
   </div>

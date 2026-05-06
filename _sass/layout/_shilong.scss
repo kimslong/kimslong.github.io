@@ -210,13 +210,23 @@ a:hover {
   font-size: 0.82rem;
   font-weight: 800;
   text-decoration: none;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease,
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
 }
 
-.sj-button--primary,
-.sj-links a:first-child {
+.sj-button:hover,
+.sj-button:focus-visible,
+.sj-links a:hover,
+.sj-links a:focus-visible {
   background: var(--sj-mint-deep);
   color: #fffdf5;
   border-color: var(--sj-mint-deep);
+  box-shadow: 0 14px 30px rgba(15, 63, 58, 0.16);
+  transform: translateY(-1px);
 }
 
 .sj-section {
