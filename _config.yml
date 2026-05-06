@@ -24,9 +24,9 @@ repository               : "kimslong/kimslong.github.io"
 author:
   # Biographic information
   avatar           : "shilonnng.png"
-  name             : "Shilong Jin"
+  name             : ""
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Candidate in AI at NUAA. Researching 3D generation, hand pose, embodied intelligence, and video understanding."
+  bio              : "机器学习我休息🤖"
   location         : "Nanjing, China"
   employer         : "NUAA · MVP Lab"
   uri              : "https://kimslong.github.io"
