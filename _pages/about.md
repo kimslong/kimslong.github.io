@@ -261,7 +261,7 @@ redirect_from:
     <div><span>Ph.D. Advisor</span><a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a><small>NUAA</small></div>
     <div><span>Master's Advisor</span><a href="https://faculty.nuist.edu.cn/YuanZHOU/en/index.htm">Yuan Zhou</a><small>NUIST</small></div>
     <div><span>Close Collaborator</span><a href="https://haoranduan.com/">Haoran Duan</a><small>Tsinghua University</small></div>
-    <div class="sj-people-grid__labmates"><span>Labmates</span><p><a href="https://robin-hlt.github.io/">Litao Hua</a>, <a href="https://github.com/huangHH73">Wentao Huang</a>, Zhixuan Deng, Lei Xiang, Yifan Zhu</p></div>
+    <div class="sj-people-grid__labmates"><span>Labmates</span><p><a href="https://robin-hlt.github.io/">Litao Hua</a>, <a href="https://github.com/huangHH73">Wentao Huang</a>, Lei Xiang, Yifan Zhu</p></div>
   </div>
 </section>
 
