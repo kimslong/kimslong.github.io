@@ -12,16 +12,13 @@ redirect_from:
   <h1> 👋 I'm Shilong Jin</h1>
   <p class="sj-hero__lead" align="center">
     First‑year Ph.D. Candidate at
-    <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong> <br>
+    <strong>NUAA</strong> <br>
 Member of
     <a href="http://nuaamvp.cn/">MVP Lab</a>, supervised by Prof.
     <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a> <br>
 Closely working with
     <a href="https://haoranduan.com/">Haoran Duan</a>  in Tsinghua University.
   </p>
-  <div class="sj-hero-gallery" aria-label="Featured gallery">
-    {% include sj-gallery-track.html folder="/images/相册/" %}
-  </div>
   <div class="sj-shield-row sj-shield-row--hero">
     <a href="mailto:shilong.jin@nuist.edu.cn">
       <img src="https://img.shields.io/badge/Email-shilong.jin%40nuist.edu.cn-0078D4?style=flat&logo=gmail&logoColor=white" alt="Email: shilong.jin@nuist.edu.cn" />
@@ -33,6 +30,11 @@ Closely working with
       <img src="https://img.shields.io/badge/GitHub-kimslong-181717?style=flat&logo=github&logoColor=white" alt="GitHub: kimslong" />
     </a>
   </div>
+
+  <div class="sj-hero-gallery" aria-label="Featured gallery">
+    {% include sj-gallery-track.html folder="/images/相册/" %}
+  </div>
+
 </section>
 
 <section class="sj-section" id="news">
