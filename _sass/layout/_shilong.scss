@@ -159,12 +159,18 @@ a:hover {
 }
 
 .author__lab-card a,
+.author__lab-card .author__lab-card-logo,
 .author__lab-card img {
   display: block;
 }
 
-.author__lab-card a {
+.author__lab-card a,
+.author__lab-card .author__lab-card-logo {
   width: 100%;
+}
+
+.author__lab-card .author__lab-card-logo + .author__lab-card-logo {
+  margin-top: 0.9rem;
 }
 
 .author__lab-card img {
