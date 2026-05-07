@@ -19,28 +19,28 @@ redirect_from:
   </p>
   <div class="sj-hero-gallery" aria-label="Featured gallery">
     <div class="sj-hero-gallery__track">
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm">
         <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="Gallery placeholder 1" />
       </div>
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
         <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="Gallery placeholder 2" />
       </div>
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg">
         <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="Gallery placeholder 3" />
       </div>
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
         <img src="{{ '/images/consdreamer_poster.png' | relative_url }}" alt="Gallery placeholder 4" />
       </div>
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm">
         <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="" aria-hidden="true" />
       </div>
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
         <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="" aria-hidden="true" />
       </div>
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg">
         <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="" aria-hidden="true" />
       </div>
-      <div class="sj-hero-gallery__item">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
         <img src="{{ '/images/consdreamer_poster.png' | relative_url }}" alt="" aria-hidden="true" />
       </div>
     </div>
