@@ -521,12 +521,15 @@ a:hover {
   line-height: 1.55;
 }
 
-.sj-people-grid p a {
-  display: inline;
+.sj-people-grid a,
+.sj-people-grid p,
+.sj-people-grid small {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
-.sj-people-grid__labmates p {
-  white-space: nowrap;
+.sj-people-grid p a {
+  display: inline;
 }
 
 .sj-paper {
@@ -793,10 +796,6 @@ a:hover {
     margin-left: 0;
     margin-right: 0;
     height: 4rem;
-  }
-
-  .sj-people-grid__labmates p {
-    white-space: normal;
   }
 
   .sj-paper__image {
