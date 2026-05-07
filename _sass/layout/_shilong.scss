@@ -286,19 +286,48 @@ a:hover {
 .sj-hero-gallery {
   --sj-gallery-gap: 0.9rem;
   margin-top: 1.4rem;
+  position: relative;
   overflow: hidden;
   border: 1px solid rgba(15, 118, 110, 0.16);
   border-radius: 22px;
-  background: rgba(255, 255, 255, 0.56);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(240, 248, 244, 0.70));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 18px 40px rgba(15, 63, 58, 0.10);
+  perspective: 1400px;
+}
+
+.sj-hero-gallery::before,
+.sj-hero-gallery::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: clamp(1.4rem, 4vw, 3rem);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.sj-hero-gallery::before {
+  left: 0;
+  background: linear-gradient(90deg, rgba(247, 251, 248, 0.96), rgba(247, 251, 248, 0));
+}
+
+.sj-hero-gallery::after {
+  right: 0;
+  background: linear-gradient(270deg, rgba(247, 251, 248, 0.96), rgba(247, 251, 248, 0));
 }
 
 .sj-hero-gallery__track {
   display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
   gap: var(--sj-gallery-gap);
   width: max-content;
   padding: 0.95rem;
-  animation: sj-gallery-scroll 28s linear infinite;
+  animation: sj-gallery-scroll 24s linear infinite;
+  will-change: transform;
 }
 
 .sj-hero-gallery:hover .sj-hero-gallery__track {
@@ -311,8 +340,24 @@ a:hover {
   overflow: hidden;
   border-radius: 16px;
   border: 1px solid rgba(16, 32, 29, 0.10);
-  background: rgba(255, 253, 245, 0.92);
-  box-shadow: 0 10px 26px rgba(15, 63, 58, 0.10);
+  background: rgba(255, 253, 245, 0.96);
+  box-shadow:
+    0 16px 34px rgba(15, 63, 58, 0.16),
+    0 4px 10px rgba(15, 63, 58, 0.08);
+  transform: rotateY(-8deg) translateY(0);
+  transform-style: preserve-3d;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+
+.sj-hero-gallery__item:nth-child(2n) {
+  transform: rotateY(8deg) translateY(0);
+}
+
+.sj-hero-gallery__item:hover {
+  transform: rotateY(0deg) translateY(-4px) scale(1.02);
+  box-shadow:
+    0 22px 44px rgba(15, 63, 58, 0.20),
+    0 6px 14px rgba(15, 63, 58, 0.10);
 }
 
 .sj-hero-gallery__item img {
@@ -823,6 +868,7 @@ a:hover {
 
   .sj-hero-gallery__item {
     flex-basis: 210px;
+    transform: none;
   }
 
   .sj-paper-table,
