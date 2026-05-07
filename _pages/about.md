@@ -10,12 +10,14 @@ redirect_from:
 <section class="sj-hero">
 
   <h1> 👋 I'm Shilong Jin</h1>
-  <p class="sj-hero__lead">
-    I am a first-year Ph.D. Candidate in Artificial Intelligence at
-    <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong>, a member of
+  <p class="sj-hero__lead" align="center">
+    First‑year Ph.D. Candidate at
+    <strong>Nanjing University of Aeronautics and Astronautics (NUAA)</strong> <br>
+Member of
     <a href="http://nuaamvp.cn/">MVP Lab</a>, supervised by Prof.
-    <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a>. I work closely with
-    <a href="https://haoranduan.com/">Haoran Duan</a> at Tsinghua University.
+    <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a> <br>
+Closely working with
+    <a href="https://haoranduan.com/">Haoran Duan</a>  in Tsinghua University.
   </p>
   <div class="sj-hero-gallery" aria-label="Featured gallery">
     {% include sj-gallery-track.html folder="/images/相册/" %}
