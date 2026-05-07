@@ -1,44 +1,46 @@
 ---
-# 首页永久链接，固定为根路径，避免路径冲突
 permalink: /
-# 清空标题避免空值语法异常，如需标题可填写自定义内容，如：首页 | 个人主页
-title: 
-# 开启个人资料侧边栏展示，适配primer主题默认布局
+title: ""
 author_profile: true
-# 跳转重定向，兼容旧about页面链接，保证访问无404
 redirect_from:
   - /about/
   - /about.html
 ---
 
-{% assign album_media = site.static_files | where_exp: "file", "file.path contains '/images/相册/' and file.name != '.DS_Store'" | sort: "name" %}
+{% assign album_media = site.static_files | sort: "name" %}
 {% capture sj_album_gallery %}
   <div class="sj-hero-gallery__track">
     {% for gallery_pass in (1..2) %}
+      {% assign album_index = 0 %}
       {% for media in album_media %}
-        {% assign media_mod = forloop.index0 | modulo: 4 %}
-        {% case media_mod %}
-          {% when 0 %}
-            {% assign media_size = 'sj-hero-gallery__item--sm' %}
-          {% when 1 %}
-            {% assign media_size = 'sj-hero-gallery__item--md' %}
-          {% when 2 %}
-            {% assign media_size = 'sj-hero-gallery__item--lg' %}
-          {% else %}
-            {% assign media_size = 'sj-hero-gallery__item--md' %}
-        {% endcase %}
         {% assign media_ext = media.extname | downcase %}
-        {% assign media_title = media.name | remove: media.extname %}
-        <div class="sj-hero-gallery__item {{ media_size }}"{% if gallery_pass == 2 %} aria-hidden="true"{% endif %}>
-          <div class="sj-hero-gallery__media">
-            {% if media_ext == '.mp4' or media_ext == '.mov' or media_ext == '.m4v' or media_ext == '.webm' %}
-              <video class="sj-hero-gallery__asset" src="{{ media.path | relative_url }}" autoplay muted loop playsinline preload="metadata"{% if gallery_pass == 1 %} aria-label="{{ media_title }}"{% endif %}></video>
-            {% else %}
-              <img class="sj-hero-gallery__asset" src="{{ media.path | relative_url }}" alt="{% if gallery_pass == 1 %}{{ media_title }}{% endif %}"{% if gallery_pass == 2 %} aria-hidden="true"{% endif %} />
-            {% endif %}
-          </div>
-          <div class="sj-hero-gallery__caption">{{ media_title }}</div>
-        </div>
+        {% if media.path contains '/images/相册/' %}
+          {% if media_ext == '.png' or media_ext == '.jpg' or media_ext == '.jpeg' or media_ext == '.webp' or media_ext == '.gif' or media_ext == '.mp4' or media_ext == '.mov' or media_ext == '.m4v' or media_ext == '.webm' %}
+            {% assign media_mod = album_index | modulo: 4 %}
+            {% case media_mod %}
+              {% when 0 %}
+                {% assign media_size = 'sj-hero-gallery__item--sm' %}
+              {% when 1 %}
+                {% assign media_size = 'sj-hero-gallery__item--md' %}
+              {% when 2 %}
+                {% assign media_size = 'sj-hero-gallery__item--lg' %}
+              {% else %}
+                {% assign media_size = 'sj-hero-gallery__item--md' %}
+            {% endcase %}
+            {% assign media_title = media.name | remove: media.extname %}
+            <div class="sj-hero-gallery__item {{ media_size }}"{% if gallery_pass == 2 %} aria-hidden="true"{% endif %}>
+              <div class="sj-hero-gallery__media">
+                {% if media_ext == '.mp4' or media_ext == '.mov' or media_ext == '.m4v' or media_ext == '.webm' %}
+                  <video class="sj-hero-gallery__asset" src="{{ media.path | relative_url }}" autoplay muted loop playsinline preload="metadata"{% if gallery_pass == 1 %} aria-label="{{ media_title }}"{% endif %}></video>
+                {% else %}
+                  <img class="sj-hero-gallery__asset" src="{{ media.path | relative_url }}" alt="{% if gallery_pass == 1 %}{{ media_title }}{% endif %}"{% if gallery_pass == 2 %} aria-hidden="true"{% endif %} />
+                {% endif %}
+              </div>
+              <div class="sj-hero-gallery__caption">{{ media_title }}</div>
+            </div>
+            {% assign album_index = album_index | plus: 1 %}
+          {% endif %}
+        {% endif %}
       {% endfor %}
     {% endfor %}
   </div>
