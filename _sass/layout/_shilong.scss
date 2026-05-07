@@ -324,7 +324,7 @@ a:hover {
 .sj-hero-gallery__track {
   display: flex;
   flex-wrap: nowrap;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: var(--sj-gallery-gap);
   width: max-content;
   padding: 0.95rem;
@@ -337,9 +337,9 @@ a:hover {
 }
 
 .sj-hero-gallery__item {
-  --sj-gallery-scale: 0.84;
-  --sj-gallery-tilt: -14deg;
-  --sj-gallery-lift: 10px;
+  --sj-gallery-scale: 1;
+  --sj-gallery-tilt: 0deg;
+  --sj-gallery-lift: 0px;
   position: relative;
   flex: 0 0 auto;
   display: flex;
@@ -353,7 +353,7 @@ a:hover {
   transform: translateY(var(--sj-gallery-lift)) rotateY(var(--sj-gallery-tilt)) scale(var(--sj-gallery-scale));
   transform-style: preserve-3d;
   transition: transform 0.22s ease, opacity 0.22s ease;
-  opacity: 0.82;
+  opacity: 1;
 }
 
 .sj-hero-gallery__item::before {
@@ -407,30 +407,25 @@ a:hover {
 }
 
 .sj-hero-gallery__item--sm {
-  --sj-gallery-scale: 0.84;
   z-index: 1;
 }
 
 .sj-hero-gallery__item--md {
-  --sj-gallery-scale: 0.94;
-  opacity: 0.9;
   z-index: 2;
 }
 
 .sj-hero-gallery__item--lg {
-  --sj-gallery-scale: 1.08;
-  opacity: 1;
   z-index: 3;
 }
 
 .sj-hero-gallery__item--sm .sj-hero-gallery__caption {
   font-size: 0.72rem;
-  opacity: 0.72;
+  opacity: 1;
 }
 
 .sj-hero-gallery__item--md .sj-hero-gallery__caption {
   font-size: 0.76rem;
-  opacity: 0.84;
+  opacity: 1;
 }
 
 .sj-hero-gallery__item--lg .sj-hero-gallery__caption {
@@ -447,13 +442,13 @@ a:hover {
 }
 
 .sj-hero-gallery__item:nth-child(4n + 1) {
-  --sj-gallery-tilt: -14deg;
-  --sj-gallery-lift: 10px;
+  --sj-gallery-tilt: 0deg;
+  --sj-gallery-lift: 0px;
 }
 
 .sj-hero-gallery__item:nth-child(4n + 2) {
-  --sj-gallery-tilt: -8deg;
-  --sj-gallery-lift: 4px;
+  --sj-gallery-tilt: 0deg;
+  --sj-gallery-lift: 0px;
 }
 
 .sj-hero-gallery__item:nth-child(4n + 3) {
@@ -462,12 +457,12 @@ a:hover {
 }
 
 .sj-hero-gallery__item:nth-child(4n) {
-  --sj-gallery-tilt: 8deg;
-  --sj-gallery-lift: 4px;
+  --sj-gallery-tilt: 0deg;
+  --sj-gallery-lift: 0px;
 }
 
 .sj-hero-gallery__item:hover {
-  transform: translateY(-12px) rotateY(0deg) scale(calc(var(--sj-gallery-scale) + 0.14));
+  transform: translateY(-10px) rotateY(0deg) scale(1.04);
   opacity: 1;
   z-index: 6;
 }
