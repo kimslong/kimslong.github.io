@@ -322,7 +322,7 @@ a:hover {
 .sj-hero-gallery__track {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  align-items: flex-end;
   gap: var(--sj-gallery-gap);
   width: max-content;
   padding: 0.95rem;
@@ -336,7 +336,6 @@ a:hover {
 
 .sj-hero-gallery__item {
   --sj-gallery-width: 270px;
-  --sj-gallery-height: 252px;
   position: relative;
   flex: 0 0 auto;
   display: flex;
@@ -357,12 +356,8 @@ a:hover {
 }
 
 .sj-hero-gallery__media {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--sj-gallery-height);
+  display: block;
   padding: 0.5rem;
-  overflow: hidden;
   border-radius: 13px;
   border: 1px solid rgba(16, 32, 29, 0.10);
   background:
@@ -373,6 +368,7 @@ a:hover {
     0 4px 10px rgba(15, 63, 58, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.75),
     inset 0 -1px 0 rgba(15, 63, 58, 0.08);
+  transition: transform 0.24s ease, box-shadow 0.24s ease, filter 0.24s ease;
 }
 
 .sj-hero-gallery__caption {
@@ -388,17 +384,16 @@ a:hover {
   text-shadow: 0 8px 22px rgba(15, 63, 58, 0.16);
   transform: translateZ(22px);
   transform-style: preserve-3d;
+  transition: transform 0.24s ease, opacity 0.24s ease, text-shadow 0.24s ease;
 }
 
 .sj-hero-gallery__item--sm {
   --sj-gallery-width: 270px;
-  --sj-gallery-height: 228px;
   z-index: 1;
 }
 
 .sj-hero-gallery__item--md {
   --sj-gallery-width: 330px;
-  --sj-gallery-height: 294px;
   transform: rotateY(-8deg) scale(0.95) translateY(4px);
   opacity: 0.92;
   z-index: 2;
@@ -406,7 +401,6 @@ a:hover {
 
 .sj-hero-gallery__item--lg {
   --sj-gallery-width: 390px;
-  --sj-gallery-height: 372px;
   transform: rotateY(0deg) scale(1) translateY(0);
   opacity: 1;
   z-index: 3;
@@ -448,25 +442,30 @@ a:hover {
 }
 
 .sj-hero-gallery__item:hover {
-  transform: rotateY(0deg) translateY(-4px) scale(1.02);
+  transform: rotateY(0deg) translateY(-12px) scale(1.10);
   opacity: 1;
+  z-index: 6;
 }
 
 .sj-hero-gallery__item:hover .sj-hero-gallery__media {
   box-shadow:
-    0 22px 44px rgba(15, 63, 58, 0.20),
-    0 6px 14px rgba(15, 63, 58, 0.10),
+    0 28px 56px rgba(15, 63, 58, 0.22),
+    0 8px 18px rgba(15, 63, 58, 0.12),
     inset 0 1px 0 rgba(255, 255, 255, 0.82),
     inset 0 -1px 0 rgba(15, 63, 58, 0.10);
+  filter: brightness(1.03) saturate(1.04);
+}
+
+.sj-hero-gallery__item:hover .sj-hero-gallery__caption {
+  transform: translateZ(28px) scale(1.08);
+  opacity: 1;
+  text-shadow: 0 12px 26px rgba(15, 63, 58, 0.22);
 }
 
 .sj-hero-gallery__item img {
   display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 .sj-actions {
@@ -980,7 +979,6 @@ a:hover {
   .sj-hero-gallery__item:nth-child(4n + 1),
   .sj-hero-gallery__item:nth-child(4n + 2),
   .sj-hero-gallery__item:nth-child(4n + 4) {
-    --sj-gallery-height: 270px;
     transform: none;
   }
 
