@@ -316,28 +316,66 @@ redirect_from:
   <div class="sj-section__heading">
     <h2>🎮 Hobbies & Achievements</h2>
   </div>
-  <div class="sj-hobby-grid">
-    <div class="sj-hobby-grid__image">
-      <img src="{{ '/images/game.jpg' | relative_url }}" alt="Gaming achievements banner" />
+  <div class="sj-hero-gallery sj-hero-gallery--centered" aria-label="Hobbies gallery">
+    <div class="sj-hero-gallery__track">
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="Gaming gallery 1" />
+        </div>
+        <div class="sj-hero-gallery__caption">Peak Tournament</div>
+      </div>
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="Gaming gallery 2" />
+        </div>
+        <div class="sj-hero-gallery__caption">Squad Victory</div>
+      </div>
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="Gaming gallery 3" />
+        </div>
+        <div class="sj-hero-gallery__caption">Conqueror Season</div>
+      </div>
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/game.jpg' | relative_url }}" alt="Gaming gallery 4" />
+        </div>
+        <div class="sj-hero-gallery__caption">Achievement Board</div>
+      </div>
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm" aria-hidden="true">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="" aria-hidden="true" />
+        </div>
+        <div class="sj-hero-gallery__caption">Peak Tournament</div>
+      </div>
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md" aria-hidden="true">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="" aria-hidden="true" />
+        </div>
+        <div class="sj-hero-gallery__caption">Squad Victory</div>
+      </div>
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg" aria-hidden="true">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="" aria-hidden="true" />
+        </div>
+        <div class="sj-hero-gallery__caption">Conqueror Season</div>
+      </div>
+      <div class="sj-hero-gallery__item sj-hero-gallery__item--md" aria-hidden="true">
+        <div class="sj-hero-gallery__media">
+          <img src="{{ '/images/game.jpg' | relative_url }}" alt="" aria-hidden="true" />
+        </div>
+        <div class="sj-hero-gallery__caption">Achievement Board</div>
+      </div>
     </div>
-    <div class="sj-hobby-block">
+  </div>
+  <div class="sj-hobby-lines">
+    <div class="sj-hobby-line">
       <h3>和平精英</h3>
-      <ul>
-        <li>无敌战神 ×4 [SS4, SS8, SS38, SS39]</li>
-        <li>巅峰宗师 ×2 [SS10, SS18]</li>
-        <li>高校榜榜一 [SS38]</li>
-        <li>巅峰赛北京市级百强 [SS26]</li>
-        <li>晋级赛绝世王牌 ×4</li>
-        <li>城市赛冠军 · 月赛冠军 · 42 王牌印记</li>
-      </ul>
+      <p>无敌战神 ×4 [SS4, SS8, SS38, SS39] · 巅峰宗师 ×2 [SS10, SS18] · 高校榜榜一 [SS38] · 巅峰赛北京市级百强 [SS26] · 晋级赛绝世王牌 ×4 · 城市赛冠军 · 月赛冠军 · 42 王牌印记</p>
     </div>
-    <div class="sj-hobby-block">
+    <div class="sj-hobby-line">
       <h3>PUBG Mobile</h3>
-      <ul>
-        <li>C1S1 无敌战神</li>
-        <li>中国第 9</li>
-        <li>亚洲第 14</li>
-      </ul>
+      <p>C1S1 无敌战神 · 中国第 9 · 亚洲第 14</p>
     </div>
   </div>
 </section>
