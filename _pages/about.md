@@ -10,6 +10,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 {% assign album_media = site.static_files | where_exp: "file", "file.path contains '/images/相册/' and file.name != '.DS_Store'" | sort: "name" %}
 {% capture sj_album_gallery %}
   <div class="sj-hero-gallery__track">
