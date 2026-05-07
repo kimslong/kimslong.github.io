@@ -17,6 +17,34 @@ redirect_from:
     <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a>. I work closely with
     <a href="https://haoranduan.com/">Haoran Duan</a> at Tsinghua University.
   </p>
+  <div class="sj-hero-gallery" aria-label="Featured gallery">
+    <div class="sj-hero-gallery__track">
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="Gallery placeholder 1" />
+      </div>
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="Gallery placeholder 2" />
+      </div>
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="Gallery placeholder 3" />
+      </div>
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/consdreamer_poster.png' | relative_url }}" alt="Gallery placeholder 4" />
+      </div>
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="" aria-hidden="true" />
+      </div>
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="" aria-hidden="true" />
+      </div>
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="" aria-hidden="true" />
+      </div>
+      <div class="sj-hero-gallery__item">
+        <img src="{{ '/images/consdreamer_poster.png' | relative_url }}" alt="" aria-hidden="true" />
+      </div>
+    </div>
+  </div>
   <div class="sj-shield-row sj-shield-row--hero">
     <a href="mailto:shilong.jin@nuist.edu.cn">
       <img src="https://img.shields.io/badge/Email-shilong.jin%40nuist.edu.cn-0078D4?style=flat&logo=gmail&logoColor=white" alt="Email: shilong.jin@nuist.edu.cn" />
