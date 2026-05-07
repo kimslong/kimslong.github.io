@@ -285,6 +285,7 @@ a:hover {
 
 .sj-hero-gallery {
   --sj-gallery-gap: 0.9rem;
+  --sj-gallery-media-height: clamp(340px, 36vw, 500px);
   margin-top: 1.4rem;
   position: relative;
   overflow: hidden;
@@ -359,6 +360,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: var(--sj-gallery-media-height);
   padding: 0.5rem;
   border-radius: 13px;
   border: 1px solid rgba(16, 32, 29, 0.10);
@@ -379,10 +381,12 @@ a:hover {
   color: var(--sj-mint-deep);
   font-size: 0.78rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
   text-align: center;
-  text-transform: uppercase;
-  white-space: nowrap;
+  text-transform: none;
+  white-space: normal;
+  overflow-wrap: anywhere;
   text-shadow: 0 8px 22px rgba(15, 63, 58, 0.16);
   transform: translateZ(22px);
   transform-style: preserve-3d;
@@ -470,12 +474,21 @@ a:hover {
   text-shadow: 0 12px 26px rgba(15, 63, 58, 0.22);
 }
 
-.sj-hero-gallery__item img {
+.sj-hero-gallery__asset {
   display: block;
   width: auto;
+  height: 100%;
   max-width: 100%;
   max-height: 100%;
-  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.sj-hero-gallery__asset[src$=".mp4"],
+.sj-hero-gallery__asset[src$=".mov"],
+.sj-hero-gallery__asset[src$=".m4v"],
+.sj-hero-gallery__asset[src$=".webm"] {
+  background: #091311;
 }
 
 .sj-actions {
@@ -1013,6 +1026,10 @@ a:hover {
 
   .sj-hero-gallery__track {
     padding: 0.75rem;
+  }
+
+  .sj-hero-gallery {
+    --sj-gallery-media-height: min(72vw, 400px);
   }
 
   .sj-hero-gallery__item {

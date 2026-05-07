@@ -7,6 +7,39 @@ redirect_from:
   - /about.html
 ---
 
+{% assign album_media = site.static_files | where_exp: "file", "file.path contains '/images/相册/' and file.name != '.DS_Store'" | sort: "name" %}
+{% capture sj_album_gallery %}
+  <div class="sj-hero-gallery__track">
+    {% for gallery_pass in (1..2) %}
+      {% for media in album_media %}
+        {% assign media_mod = forloop.index0 | modulo: 4 %}
+        {% case media_mod %}
+          {% when 0 %}
+            {% assign media_size = 'sj-hero-gallery__item--sm' %}
+          {% when 1 %}
+            {% assign media_size = 'sj-hero-gallery__item--md' %}
+          {% when 2 %}
+            {% assign media_size = 'sj-hero-gallery__item--lg' %}
+          {% else %}
+            {% assign media_size = 'sj-hero-gallery__item--md' %}
+        {% endcase %}
+        {% assign media_ext = media.extname | downcase %}
+        {% assign media_title = media.name | remove: media.extname %}
+        <div class="sj-hero-gallery__item {{ media_size }}"{% if gallery_pass == 2 %} aria-hidden="true"{% endif %}>
+          <div class="sj-hero-gallery__media">
+            {% if media_ext == '.mp4' or media_ext == '.mov' or media_ext == '.m4v' or media_ext == '.webm' %}
+              <video class="sj-hero-gallery__asset" src="{{ media.path | relative_url }}" autoplay muted loop playsinline preload="metadata"{% if gallery_pass == 1 %} aria-label="{{ media_title }}"{% endif %}></video>
+            {% else %}
+              <img class="sj-hero-gallery__asset" src="{{ media.path | relative_url }}" alt="{% if gallery_pass == 1 %}{{ media_title }}{% endif %}"{% if gallery_pass == 2 %} aria-hidden="true"{% endif %} />
+            {% endif %}
+          </div>
+          <div class="sj-hero-gallery__caption">{{ media_title }}</div>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% endcapture %}
+
 <section class="sj-hero">
 
   <h1> 👋 I'm Shilong Jin</h1>
@@ -18,56 +51,7 @@ redirect_from:
     <a href="https://haoranduan.com/">Haoran Duan</a> at Tsinghua University.
   </p>
   <div class="sj-hero-gallery" aria-label="Featured gallery">
-    <div class="sj-hero-gallery__track">
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="Gallery placeholder 1" />
-        </div>
-        <div class="sj-hero-gallery__caption">Campus Life</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="Gallery placeholder 2" />
-        </div>
-        <div class="sj-hero-gallery__caption">Research Moments</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="Gallery placeholder 3" />
-        </div>
-        <div class="sj-hero-gallery__caption">Conference Story</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/consdreamer_poster.png' | relative_url }}" alt="Gallery placeholder 4" />
-        </div>
-        <div class="sj-hero-gallery__caption">Project Snapshot</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Campus Life</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Research Moments</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Conference Story</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/consdreamer_poster.png' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Project Snapshot</div>
-      </div>
-    </div>
+    {{ sj_album_gallery }}
   </div>
   <div class="sj-shield-row sj-shield-row--hero">
     <a href="mailto:shilong.jin@nuist.edu.cn">
@@ -317,56 +301,7 @@ redirect_from:
     <h2>🎮 Hobbies & Achievements</h2>
   </div>
   <div class="sj-hero-gallery sj-hero-gallery--centered" aria-label="Hobbies gallery">
-    <div class="sj-hero-gallery__track">
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="Gaming gallery 1" />
-        </div>
-        <div class="sj-hero-gallery__caption">Peak Tournament</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="Gaming gallery 2" />
-        </div>
-        <div class="sj-hero-gallery__caption">Squad Victory</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="Gaming gallery 3" />
-        </div>
-        <div class="sj-hero-gallery__caption">Conqueror Season</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/game.jpg' | relative_url }}" alt="Gaming gallery 4" />
-        </div>
-        <div class="sj-hero-gallery__caption">Achievement Board</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--sm" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME1.jpg' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Peak Tournament</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME2.jpg' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Squad Victory</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--lg" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/GAME3.jpg' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Conqueror Season</div>
-      </div>
-      <div class="sj-hero-gallery__item sj-hero-gallery__item--md" aria-hidden="true">
-        <div class="sj-hero-gallery__media">
-          <img src="{{ '/images/game.jpg' | relative_url }}" alt="" aria-hidden="true" />
-        </div>
-        <div class="sj-hero-gallery__caption">Achievement Board</div>
-      </div>
-    </div>
+    {{ sj_album_gallery }}
   </div>
   <div class="sj-hobby-lines">
     <div class="sj-hobby-line">
