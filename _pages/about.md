@@ -1,12 +1,15 @@
 ---
+# 首页永久链接，固定为根路径，避免路径冲突
 permalink: /
-title: ""
+# 清空标题避免空值语法异常，如需标题可填写自定义内容，如：首页 | 个人主页
+title: 
+# 开启个人资料侧边栏展示，适配primer主题默认布局
 author_profile: true
+# 跳转重定向，兼容旧about页面链接，保证访问无404
 redirect_from:
   - /about/
   - /about.html
 ---
-
 {% assign album_media = site.static_files | where_exp: "file", "file.path contains '/images/相册/' and file.name != '.DS_Store'" | sort: "name" %}
 {% capture sj_album_gallery %}
   <div class="sj-hero-gallery__track">
