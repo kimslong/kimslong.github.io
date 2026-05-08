@@ -11,13 +11,10 @@ redirect_from:
 
   <h1> 👋 I'm Shilong Jin</h1>
   <p class="sj-hero__lead" align="center">
-    First‑year Ph.D. Candidate at
-    <strong>NUAA</strong> <br>
-Member of
-    <a href="http://nuaamvp.cn/">MVP Lab</a>, supervised by Prof.
-    <a href="https://sites.google.com/site/firmamentqj/">Jie Qin</a> <br>
-Closely working with
-    <a href="https://haoranduan.com/">Haoran Duan</a>  in Tsinghua University.
+  Third-year M.S. postgraduate at NUIST, member of <a href="https://github.com/GAInuist"><b>GAInuist</b></a>, supervised by Prof. <a href="https://github.com/GAInuist"><b>Yuan Zhou</b></a>.<br>
+  Prospective Ph.D. Candidate at NUAA, member of <a href="http://nuaamvp.cn/"><b>MVP Lab</b></a>, supervised by Prof. <a href="https://sites.google.com/site/firmamentqj/"><b>Jie Qin</b></a>.<br>
+  Closely working with <a href="https://github.com/haoranD"><b>Haoran Duan</b></a>, Tsinghua University.
+   
   </p>
   <div class="sj-shield-row sj-shield-row--hero">
     <a href="mailto:shilong.jin@nuist.edu.cn">
