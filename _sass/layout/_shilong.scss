@@ -211,6 +211,15 @@ a:hover {
   width: auto;
 }
 
+.author__urls .author__desktop--employer {
+  white-space: nowrap;
+}
+
+.author__urls .author__desktop--employer a {
+  display: inline;
+  width: auto;
+}
+
 .author__urls a {
   display: block;
   width: auto;
