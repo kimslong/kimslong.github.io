@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "机器学习我休息🤖"
   location         : "Nanjing, China"
-  employer         : "NUAA · MVP Lab"
+  employer         : '<a href="http://nuaamvp.cn/">NUAA · MVP Lab</a>'
   uri              : "https://kimslong.github.io"
   email            : "shilong.jin@nuist.edu.cn" 
 
