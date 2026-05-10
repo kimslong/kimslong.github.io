@@ -300,7 +300,7 @@ a:hover {
 
 .sj-hero-gallery {
   --sj-gallery-gap: 0.9rem;
-  --sj-gallery-duration: 35s;
+  --sj-gallery-duration: 30s;
   --sj-gallery-media-height: clamp(340px, 30vw, 500px);
   margin-top: 1.4rem;
   position: relative;
@@ -422,7 +422,7 @@ a:hover {
 }
 
 .sj-hero-gallery--games {
-  --sj-gallery-duration: 20s;
+  --sj-gallery-duration: 15s;
   --sj-gallery-media-height: clamp(280px, 30vw, 420px);
 }
 
