@@ -552,7 +552,15 @@ video.sj-hero-gallery__asset {
   vertical-align: middle;
 }
 
-.sj-inline-logo {
+.sj-inline-logo-valse {
+  display: inline-block;
+  height: 1.6em;
+  margin-left: 0.3rem;
+  vertical-align: -0.18em;
+  border: 0;
+}
+
+.sj-inline-logo-lenovo {
   display: inline-block;
   height: 1.15em;
   margin-left: 0.3rem;

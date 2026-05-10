@@ -42,7 +42,7 @@ redirect_from:
     <li>
       <time>2026.05</time>
       <div>
-        <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span><img class="sj-inline-logo" src="{{ '/images/valse-logo.png' | relative_url }}" alt="Valse logo" />
+        <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span><img class="sj-inline-logo-valse" src="{{ '/images/valse-logo.png' | relative_url }}" alt="Valse logo" />
       </div>
     </li>
     <li>
@@ -89,7 +89,7 @@ redirect_from:
     </li>
     <li>
       <time>2025.09</time>
-      <div>💼 Algorithm Intern at <strong>Lenovo Research</strong> (Beijing HQ) <img class="sj-inline-logo" src="{{ '/images/Lenovo-China-logo-02.png' | relative_url }}" alt="Lenovo logo" /></div>
+      <div>💼 Algorithm Intern at <strong>Lenovo Research</strong> (Beijing HQ) <img class="sj-inline-logo-lenovo" src="{{ '/images/Lenovo-China-logo-02.png' | relative_url }}" alt="Lenovo logo" /></div>
     </li>
   </ul>
 </section>
