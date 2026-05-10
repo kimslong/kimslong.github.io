@@ -42,7 +42,7 @@ redirect_from:
     <li>
       <time>2026.05</time>
       <div>
-        <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span>
+        <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span><img class="sj-inline-logo" src="{{ '/images/valse-logo.png' | relative_url }}" alt="Valse logo" />
       </div>
     </li>
     <li>
