@@ -39,9 +39,12 @@ redirect_from:
     <h2>🔥 News</h2>
   </div>
   <ul class="sj-news-list">
-<li> <time>2026.05</time>
-<div>
-<span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b>
+    <li>
+      <time>2026.05</time>
+      <div>
+        <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span>
+      </div>
+    </li>
     <li>
       <time>2026.04</time>
       <div>
