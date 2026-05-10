@@ -300,8 +300,8 @@ a:hover {
 
 .sj-hero-gallery {
   --sj-gallery-gap: 0.9rem;
-  --sj-gallery-duration: 40s;
-  --sj-gallery-media-height: clamp(340px, 36vw, 500px);
+  --sj-gallery-duration: 35s;
+  --sj-gallery-media-height: clamp(340px, 30vw, 500px);
   margin-top: 1.4rem;
   position: relative;
   overflow: hidden;
@@ -419,6 +419,11 @@ a:hover {
   max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sj-hero-gallery--games {
+  --sj-gallery-duration: 20s;
+  --sj-gallery-media-height: clamp(280px, 30vw, 420px);
 }
 
 .sj-hero-gallery__item--sm {
@@ -1049,7 +1054,11 @@ video.sj-hero-gallery__asset {
   }
 
   .sj-hero-gallery {
-    --sj-gallery-media-height: min(72vw, 400px);
+    --sj-gallery-media-height: min(30vw, 420px);
+  }
+
+  .sj-hero-gallery--games {
+    --sj-gallery-media-height: min(30vw, 420px);
   }
 
   .sj-hero-gallery__item {

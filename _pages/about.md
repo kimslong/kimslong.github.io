@@ -271,7 +271,7 @@ redirect_from:
   <div class="sj-section__heading">
     <h2>🎮 Hobbies & Achievements</h2>
   </div>
-  <div class="sj-hero-gallery sj-hero-gallery--centered" aria-label="Hobbies gallery">
+  <div class="sj-hero-gallery sj-hero-gallery--centered sj-hero-gallery--games" aria-label="Hobbies gallery">
     {% include sj-gallery-track.html folder="/images/Games/" %}
   </div>
   <div class="sj-hobby-lines">
