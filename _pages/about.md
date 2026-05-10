@@ -42,7 +42,7 @@ redirect_from:
     <li>
       <time>2026.05</time>
       <div>
-        <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span><img class="sj-inline-logo-valse" src="{{ '/images/valse-logo.png' | relative_url }}" alt="Valse logo" />
+        <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span> <img class="sj-inline-logo-valse" src="{{ '/images/valse-logo.png' | relative_url }}" alt="Valse logo" />
       </div>
     </li>
     <li>
@@ -58,7 +58,7 @@ redirect_from:
     </li>
     <li>
       <time>2026.01</time>
-      <div>🎓 Pursuing Ph.D. in Artificial Intelligence at <strong>NUAA</strong>.</div>
+      <div>🎓 Admitted as a prospective Ph.D. candidate in Embodied Intelligence, <strong>NUAA</strong> <img class="sj-inline-logo-ei" src="{{ '/images/机械臂.png' | relative_url }}" alt="EI logo" /></div>
     </li>
     <li>
       <time>2025.11</time>
