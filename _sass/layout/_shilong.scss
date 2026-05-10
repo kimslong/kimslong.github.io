@@ -271,6 +271,10 @@ a:hover {
     display: none;
   }
 
+  .author__urls::after {
+    display: none;
+  }
+
   .author__urls li {
     margin: 0;
   }
@@ -296,7 +300,16 @@ a:hover {
 
   .author__urls li:not(.author__desktop) a i {
     margin: 0;
+    padding-right: 0;
     font-size: 1.08rem;
+    line-height: 1;
+  }
+
+  .author__urls li:not(.author__desktop) a .svg-inline--fa,
+  .author__urls li:not(.author__desktop) a .ai {
+    margin: 0;
+    padding-right: 0;
+    line-height: 1;
   }
 
   .author__urls li:not(.author__desktop) a:hover,
