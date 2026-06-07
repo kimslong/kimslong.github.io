@@ -270,21 +270,38 @@ redirect_from:
   </div>
 </section>
 
-<section class="sj-section" id="hobbies">
-  <div class="sj-section__heading">
-    <h2>🎮 Hobbies & Achievements</h2>
-  </div>
-  <div class="sj-hero-gallery sj-hero-gallery--centered sj-hero-gallery--games" aria-label="Hobbies gallery">
-    {% include sj-gallery-track.html folder="/images/Games/" %}
-  </div>
-  <div class="sj-hobby-lines">
-    <div class="sj-hobby-line">
-      <h3>和平精英</h3>
-      <p>无敌战神 ×4 [SS4, SS8, SS38, SS39] · 巅峰宗师 ×2 [SS10, SS18] · 高校榜榜一 [SS38] · 巅峰赛北京市级百强 [SS26] · 晋级赛绝世王牌 ×4 · 城市赛冠军 · 月赛冠军 · 42 王牌印记</p>
-    </div>
-    <div class="sj-hobby-line">
-      <h3>PUBG Mobile</h3>
-      <p>C1S1 无敌战神 · 中国第 9 · 亚洲第 14</p>
-    </div>
-  </div>
-</section>
+[//]: # (<section class="sj-section" id="hobbies">)
+
+[//]: # (  <div class="sj-section__heading">)
+
+[//]: # (    <h2>🎮 Hobbies & Achievements</h2>)
+
+[//]: # (  </div>)
+
+[//]: # (  <div class="sj-hero-gallery sj-hero-gallery--centered sj-hero-gallery--games" aria-label="Hobbies gallery">)
+
+[//]: # (    {% include sj-gallery-track.html folder="/images/Games/" %})
+
+[//]: # (  </div>)
+
+[//]: # (  <div class="sj-hobby-lines">)
+
+[//]: # (    <div class="sj-hobby-line">)
+
+[//]: # (      <h3>和平精英</h3>)
+
+[//]: # (      <p>无敌战神 ×4 [SS4, SS8, SS38, SS39] · 巅峰宗师 ×2 [SS10, SS18] · 高校榜榜一 [SS38] · 巅峰赛北京市级百强 [SS26] · 晋级赛绝世王牌 ×4 · 城市赛冠军 · 月赛冠军 · 42 王牌印记</p>)
+
+[//]: # (    </div>)
+
+[//]: # (    <div class="sj-hobby-line">)
+
+[//]: # (      <h3>PUBG Mobile</h3>)
+
+[//]: # (      <p>C1S1 无敌战神 · 中国第 9 · 亚洲第 14</p>)
+
+[//]: # (    </div>)
+
+[//]: # (  </div>)
+
+[//]: # (</section>)
