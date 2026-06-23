@@ -52,7 +52,7 @@ redirect_from:
         <div class="sj-shield-row">
           <img src="https://img.shields.io/badge/SCI-Q1_Top-b31b1b?style=flat" alt="SCI Q1 Top" />
           <img src="https://img.shields.io/badge/CCF-A-b31b1b?style=flat" alt="CCF-A" />
-          <img src="https://img.shields.io/badge/IF-13.7-blue?style=flat" alt="IF 13.7" />
+          <img src="https://img.shields.io/badge/IF-15.3-blue?style=flat" alt="IF 15.3" />
         </div>
       </div>
     </li>
@@ -112,7 +112,7 @@ redirect_from:
           <img src="https://img.shields.io/badge/IEEE-TIP'26-2ea44f?style=flat" alt="IEEE TIP'26" />
           <img src="https://img.shields.io/badge/SCI-Q1_Top-b31b1b?style=flat" alt="SCI Q1 Top" />
           <img src="https://img.shields.io/badge/CCF-A-b31b1b?style=flat" alt="CCF-A" />
-          <img src="https://img.shields.io/badge/IF-13.7-blue?style=flat" alt="IF 13.7" />
+          <img src="https://img.shields.io/badge/IF-15.3-blue?style=flat" alt="IF 15.3" />
         </div>
         <h3>ConsDreamer: Advancing Multi-View Consistency for Zero-Shot Text-to-3D Generation</h3>
         <p class="sj-paper-table__authors">Authors: Yuan Zhou, <strong class="sj-name-emph">Shilong Jin</strong>, Litao Hua, Wanjun Lv, Haoran Duan, Jungong Han</p>
