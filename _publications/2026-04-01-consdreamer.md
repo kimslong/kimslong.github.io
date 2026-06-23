@@ -6,7 +6,7 @@ permalink: /publication/consdreamer
 excerpt: "Advancing multi-view consistency for zero-shot text-to-3D generation."
 date: 2026-04-01
 venue: "IEEE Transactions on Image Processing (TIP), 2026"
-badges: "SCI Q1 Top · CCF-A · IF 13.7"
+badges: "SCI Q1 Top · CCF-A · IF 15.3"
 authors: "Yuan Zhou, Shilong Jin, Litao Hua, Wanjun Lv, Haoran Duan, Jungong Han"
 paperurl: "https://arxiv.org/abs/2504.02316"
 officialurl: "https://ieeexplore.ieee.org/document/11505712"
