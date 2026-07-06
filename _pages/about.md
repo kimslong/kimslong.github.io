@@ -11,15 +11,9 @@ redirect_from:
 
   <h1> 👋 I'm Shilong Jin</h1>
   <p class="sj-hero__lead" align="center">
-  Third-year M.S. postgraduate at NUIST, supervised by Prof. <a href="https://github.com/GAInuist"><b>Yuan Zhou</b></a>.<br>
   Prospective Ph.D. Candidate at NUAA, supervised by Prof. <a href="https://sites.google.com/site/firmamentqj/"><b>Jie Qin</b></a>.<br>
-  Closely working with <a href="https://github.com/haoranD"><b>Haoran Duan</b></a>, Tsinghua University.<br>
-
   </p>
   <div class="sj-shield-row sj-shield-row--hero">
-    <a href="mailto:shilong.jin@nuist.edu.cn">
-      <img src="https://img.shields.io/badge/Email-shilong.jin%40nuist.edu.cn-0078D4?style=flat&logo=gmail&logoColor=white" alt="Email: shilong.jin@nuist.edu.cn" />
-    </a>
     <a href="mailto:shilonnng@gmail.com">
       <img src="https://img.shields.io/badge/Gmail-shilonnng%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail: shilonnng@gmail.com" />
     </a>
