@@ -11,7 +11,7 @@ redirect_from:
 
   <h1> 👋 I'm Shilong Jin</h1>
   <p class="sj-hero__lead" align="center">
-  Prospective Ph.D. Candidate at NUAA, supervised by Prof. <a href="https://sites.google.com/site/firmamentqj/"><b>Jie Qin</b></a>.<br>
+  Ph.D. Candidate at NUAA, supervised by Prof. <a href="https://sites.google.com/site/firmamentqj/"><b>Jie Qin</b></a>.<br>
   </p>
   <div class="sj-shield-row sj-shield-row--hero">
     <a href="mailto:shilonnng@gmail.com">
