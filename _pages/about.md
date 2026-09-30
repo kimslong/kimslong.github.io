@@ -240,6 +240,17 @@ redirect_from:
   <table class="sj-paper-table sj-paper-table--experience">
     <tr>
       <td class="sj-paper-table__media sj-paper-table__media--wide">
+        <img src="{{ '/images/n2pdo-bu81m.png' | relative_url }}" alt="Meituan logo" />
+      </td>
+      <td class="sj-paper-table__content sj-paper-table__content--left">
+        <h3>Meituan (Beijing HQ)</h3>
+        <p class="sj-paper-table__subline">UAV-算法-感知</p>
+        <p class="sj-paper-table__authors"><strong>算法实习生</strong> · 2026年9月 - 2027年9月</p>
+        <p>具身智能预训练模型</p>
+      </td>
+    </tr>
+    <tr>
+      <td class="sj-paper-table__media sj-paper-table__media--wide">
         <img src="{{ '/images/Lenovo-China-logo-02.png' | relative_url }}" alt="Lenovo Research logo" />
       </td>
       <td class="sj-paper-table__content sj-paper-table__content--left">
