@@ -249,7 +249,7 @@ redirect_from:
       <td class="sj-paper-table__content sj-paper-table__content--left">
         <h3>Meituan (Beijing HQ)</h3>
         <p class="sj-paper-table__subline">UAV - Algorithms - Perception</p>
-        <p class="sj-paper-table__authors"><strong>Algorithm Intern</strong> · Sep. 2026 - Sep. 2027</p>
+        <p class="sj-paper-table__authors"><strong>Algorithm Intern</strong> · Sep. 2026 - Present</p>
         <p>Pretrained Models for Embodied Intelligence</p>
       </td>
     </tr>
