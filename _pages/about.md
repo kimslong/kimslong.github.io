@@ -34,6 +34,10 @@ redirect_from:
   </div>
   <ul class="sj-news-list">
     <li>
+      <time>2026.09</time>
+      <div>💼 Algorithm Intern at <strong>Meituan</strong> (Beijing HQ) <img class="sj-inline-logo-lenovo" src="{{ '/images/se7fw-x7o1t.png' | relative_url }}" alt="Meituan logo" /></div>
+    </li>
+    <li>
       <time>2026.05</time>
       <div>
         <span>🎉 My work has been selected as a poster presentation at <b>VALSE 2026</b></span> <img class="sj-inline-logo-valse" src="{{ '/images/valse-logo.png' | relative_url }}" alt="Valse logo" />
@@ -244,9 +248,9 @@ redirect_from:
       </td>
       <td class="sj-paper-table__content sj-paper-table__content--left">
         <h3>Meituan (Beijing HQ)</h3>
-        <p class="sj-paper-table__subline">UAV-算法-感知</p>
-        <p class="sj-paper-table__authors"><strong>算法实习生</strong> · 2026年9月 - 2027年9月</p>
-        <p>具身智能预训练模型</p>
+        <p class="sj-paper-table__subline">UAV - Algorithms - Perception</p>
+        <p class="sj-paper-table__authors"><strong>Algorithm Intern</strong> · Sep. 2026 - Sep. 2027</p>
+        <p>Pretrained Models for Embodied Intelligence</p>
       </td>
     </tr>
     <tr>
