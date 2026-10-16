@@ -33,10 +33,12 @@ redirect_from:
     <h2>🔥 News</h2>
   </div>
   <ul class="sj-news-list">
+    {% comment %}
     <li>
       <time>2026.09</time>
       <div>💼 Algorithm Intern at <strong>Meituan</strong> (Beijing HQ) <img class="sj-inline-logo-lenovo" src="{{ '/images/se7fw-x7o1t.png' | relative_url }}" alt="Meituan logo" /></div>
     </li>
+    {% endcomment %}
     <li>
       <time>2026.05</time>
       <div>
@@ -85,10 +87,12 @@ redirect_from:
         </div>
       </div>
     </li>
+    {% comment %}
     <li>
       <time>2025.09</time>
       <div>💼 Algorithm Intern at <strong>Lenovo Research</strong> (Beijing HQ) <img class="sj-inline-logo-lenovo" src="{{ '/images/Lenovo-China-logo-02.png' | relative_url }}" alt="Lenovo logo" /></div>
     </li>
+    {% endcomment %}
   </ul>
 </section>
 
@@ -237,6 +241,7 @@ redirect_from:
   </div>
 </section>
 
+{% comment %}
 <section class="sj-section" id="experience">
   <div class="sj-section__heading">
     <h2>💼 Internships</h2>
@@ -266,6 +271,7 @@ redirect_from:
     </tr>
   </table>
 </section>
+{% endcomment %}
 
 <section class="sj-section" id="circle">
   <div class="sj-section__heading">
